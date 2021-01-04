@@ -20,7 +20,7 @@ const NavigationBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="text-center">
       <Navbar className="navbar-dark" color="dark" light expand="md">
         <NavbarBrand href="/">Welcome!</NavbarBrand>
         <NavbarToggler onClick={toggle} />

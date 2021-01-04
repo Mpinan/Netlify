@@ -4,6 +4,7 @@ import { BrowserRouter,
   // , Route, Redirect, 
 import NavigationBar from "./Components/navigationBar";
 import Introduction from "./Components/introduction"
+import About from "./Components/aboutme"
 
 
 class App extends Component {
@@ -12,6 +13,8 @@ class App extends Component {
       <div className="App">
         <NavigationBar/>
         <Introduction/>
+
+        <About/>
         <BrowserRouter>
           <Switch>
             {/* <Route exact path="/signup" component={SignUp} />
