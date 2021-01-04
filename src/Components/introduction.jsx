@@ -4,16 +4,16 @@ const Introduction = () => {
 
     return (
     <Container>
-        <div className="text-left">
+        <div>
             <h1 className="display-3">
                 <br/>
                 Mario Garcia Piñan
                 <br/>
             </h1>
-            <h2 className="lead">
+            <h2 className="display-5">
                 Junior Software developer
             </h2>
-        <hr className="my-4"></hr>
+            <hr className="my-4"></hr>
             <h4>
             Seeking an opportunity to begin a career whilst furthering my knowledge of computer programming. 
             <br/>
