@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter,
+  Switch } from "react-router-dom";
+  // , Route, Redirect, 
 import NavigationBar from "./Components/navigationBar";
+import Introduction from "./Components/introduction"
 
 
 class App extends Component {
@@ -8,10 +11,11 @@ class App extends Component {
     return (
       <div className="App">
         <NavigationBar/>
+        <Introduction/>
         <BrowserRouter>
           <Switch>
             {/* <Route exact path="/signup" component={SignUp} />
-            <Route exact path="/home" component={Home} />
+            <Route exact path="/introduction" component={Introduction} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/userpage" component={UserPage} />
             <Route exact path="/profile" component={Profile} />
