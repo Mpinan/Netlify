@@ -53,7 +53,7 @@ body {
 	position: relative;
 	top: 450px;
 	background: #ebebeb;
-	height: 1500px;
+	/* height: 1500px; */
 }
 .content-area h2 {
 	font-family: poppins;
