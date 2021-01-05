@@ -14,10 +14,10 @@ body {
 body {
 	text-align: center;
 }
-.wrapper {
-	width: 1170px;
+/* .wrapper {
+	width: 100%;
 	margin: 0 auto;
-}
+} */
 
 .banner-area {
 	width: 100%;
@@ -53,7 +53,7 @@ body {
 	position: relative;
 	top: 450px;
 	background: #ebebeb;
-	/* height: 1500px; */
+	height: 1500px;
 }
 .content-area h2 {
 	font-family: poppins;

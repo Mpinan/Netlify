@@ -5,7 +5,8 @@ const About = () => {
     return (
         <div>
         <Introduction/>
-        <div className="content-area">
+        <div className="wrapper">
+            <div className="content-area">
                     <h1 className="display-3">
                         <br/>
                             About me
@@ -30,6 +31,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+        </div>
         </div>
       );
 };
