@@ -7,21 +7,52 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#navbar {
+/* #navbar {
   position: fixed;
-}
+} */
 
 body {
 	text-align: center;
 }
-/* .wrapper {
+
+header {
+	height: 100px;
+	background:  #d3cfcf;;
 	width: 100%;
-	margin: 0 auto;
-} */
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: rgb(0, 0, 0);
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: rgb(0, 0, 0);
+}
+
 
 .banner-area {
+  top: 8%;
 	width: 100%;
-	height: 100vh;
+  height: 100vh;
+  font-family: poppins;
 	position: fixed;
 	background-image: url("./Assets/1_MCn1VrXQznTi3JMtAIGK0g.jpeg");
 	-webkit-background-size: cover;
@@ -29,20 +60,21 @@ body {
 	background-position: center center;
 }
 .banner-area h2 {
-	padding-top: 8%;
+	padding-top: 10%;
 	font-size: 60px;
 	font-family: poppins;
 	text-transform: uppercase;
-	color: #fff;
+	color: rgba(190, 185, 185, 0.555);
 }
 
 .intro {
 	font-size: 20px;
 	font-family: poppins;
-	color: #fff;
+	color: rgb(141, 138, 138);
 }
 
 .intro h4 {
+  padding-top: 14%;
 	font-size: 20px;
 	font-family: poppins;
 	color: #fff;
@@ -51,9 +83,9 @@ body {
 .content-area {
 	width: 100%;
 	position: relative;
-	top: 450px;
-	background: #ebebeb;
-	/* height: 1500px; */
+	top: 100vh;
+	background: #ffffff;
+	height: 1500px;
 }
 .content-area h2 {
 	font-family: poppins;
@@ -68,12 +100,25 @@ body {
 	line-height: 30px;
 }
 
+#icons{
+  display: flex;
+}
 
+#icons a{
+  padding-left: 30px;
+  font-size: 40px;
+  color:black;
+}
+
+#icons h5{
+  font-weight: poppins;
+  margin: auto 0;
+  bottom: 0;
+  left:0;
+}
 
 .App {
   text-align: center;
-  /* background-image: url("./Assets/107669.jpg"); */
-  /* position: fixed; */
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
