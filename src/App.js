@@ -3,7 +3,6 @@ import { BrowserRouter,
   Switch } from "react-router-dom";
   // , Route, Redirect, 
 import NavigationBar from "./Components/navigationBar";
-import Introduction from "./Components/introduction"
 import About from "./Components/aboutme"
 
 
@@ -12,7 +11,6 @@ class App extends Component {
     return (
       <div className="App">
         <NavigationBar/>
-        <Introduction/>
         <About/>
         <BrowserRouter>
           <Switch>
