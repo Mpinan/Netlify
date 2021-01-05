@@ -19,7 +19,7 @@ const About = () => {
                             <hr className="my-4"></hr>
                         <div className="text-left">
                             <p>
-                                In early 2019 I made the decision to hang up my apron and change my life by learning how to code.
+                                In early 2019, I made the decision to hang up my apron and change my life by learning how to code.
                                 At the time, I did not even know about the existence of ‘GitHub’ and five months later, here I am, a full stack
                                 junior developer.
                             <br/>
@@ -44,7 +44,7 @@ const About = () => {
                             </a> 
                             </h5>
                         </div>
-                    <Experience/>
+                        <Experience/>
                     </Container>
                 </div>
             </div>
