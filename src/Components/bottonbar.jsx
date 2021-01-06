@@ -4,9 +4,9 @@ const BottonBar = () => {
     return ( 
         <div className="buttonnavbar">
             <div id="textleft">
-                <a>
+                <span>
                     Find me on: 
-                </a>
+                </span>
             </div>
             <div className="hover">
                 <a href="https://www.linkedin.com/in/mario-garcia-4491b316b/" rel="noopenr noreferrer" target="_blank">
@@ -17,12 +17,12 @@ const BottonBar = () => {
                 </a> 
             </div>
             <div id="textright">
-                <a>
+                <span>
                     Contact: 
-                </a>
-                <a>
+                </span>
+                <span>
                     mgpinan1990@gmail.com
-                </a>
+                </span>
             </div>
         </div>
 

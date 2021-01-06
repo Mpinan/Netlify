@@ -147,12 +147,13 @@ nav a {
 .buttonnavbar a {
 	padding: 14px 16px;
 	font-size: 25px;
-  float: left;
+  	float: left;
 	color: #bdbdbd;
 }
 
 #textright {
-  float: left;
+	padding: 14px 16px;
+	font-size: 25px;
 	color: #bdbdbd;
 	font-family: poppins;
 	float: right;
@@ -160,7 +161,8 @@ nav a {
 }
 
 #textleft {
-  float: left;
+	padding: 14px 16px;
+	font-size: 25px;
 	color: #bdbdbd;
 	font-family: poppins;
 	float: left;
