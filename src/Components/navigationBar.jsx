@@ -2,8 +2,8 @@ const NavigationBar = (props) => {
   return (
     <div >
         <header>
-			<div class="wrapper">
-				<div class="logo">
+			<div className="wrapper">
+				<div className="logo">
 					<a href="#">Welcome!</a>
 				</div>
 				<nav>

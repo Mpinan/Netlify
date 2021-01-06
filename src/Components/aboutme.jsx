@@ -1,6 +1,5 @@
 import Introduction from "./introduction"
 import { Container} from "reactstrap"
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Experience from "./experience"
 
 const About = () => {

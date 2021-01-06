@@ -1,5 +1,4 @@
 import { Container} from "reactstrap"
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Experience = () => {
 
