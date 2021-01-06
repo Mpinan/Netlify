@@ -9,10 +9,10 @@ body {
 }
 
 header {
-	border: solid rgb(0, 0, 0);
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(60,67,194,1);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(60,67,194,1);
-	box-shadow: 10px 10px 5px 0px rgba(60,67,194,1);
+	/* border: solid rgb(0, 0, 0); */
+	-webkit-box-shadow: 10px 10px 5px 0px #d3cfcf;
+	-moz-box-shadow: 10px 10px 5px 0px #d3cfcf;
+	box-shadow: 10px 10px 1000px 0px #d3cfcf;
 	height: 100px;
 	background:  #d3cfcf;;
 	width: 100%;
@@ -142,19 +142,33 @@ nav a {
   position: fixed;
   bottom: 0;
   width: 100%;
+	display: block;
 }
 
 .buttonnavbar a {
+	padding: 14px 16px;
+	font-size: 25px;
   float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	color: #bdbdbd;
 }
 
-.buttonnavbar a:hover {
+#textright {
+  float: left;
+	color: #bdbdbd;
+	font-family: poppins;
+	float: right;
+	color: #bdbdbd!important;
+}
+
+#textleft {
+  float: left;
+	color: #bdbdbd;
+	font-family: poppins;
+	float: left;
+	color: #bdbdbd!important;
+}
+
+.hover a:hover {
   background: #f1f1f1;
   color: black;
 }
@@ -163,7 +177,6 @@ nav a {
   padding: 16px;
   margin-bottom: 30px;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

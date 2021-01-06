@@ -86,17 +86,6 @@ const Experience = () => {
                 </ul>
                 </Container>
             </Container>
-                <div id="icons" className="text-left" >
-                            <h5>
-                                Find me on: 
-                                <a href="https://www.linkedin.com/in/jia-tian-leo-xia" rel="noopenr noreferrer" target="_blank">
-                                    <FaLinkedin />
-                                </a>    
-                                <a href="https://github.com/jaitone" rel="noopenr noreferrer" target="_blank">
-                                    <FaGithub />
-                                </a> 
-                            </h5>
-                </div>
     </div> 
     );
 }
