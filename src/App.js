@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavigationBar from "./Components/navigationBar";
 import About from "./Components/aboutme"
+import BottonBar from "./Components/bottonbar"
 
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
       <div className="App">
         <NavigationBar/>
           <About/>
-          
+          <BottonBar/>
       </div>
     );
   }
