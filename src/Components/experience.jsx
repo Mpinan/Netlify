@@ -1,4 +1,5 @@
 import { Container} from "reactstrap"
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Experience = () => {
 
@@ -9,15 +10,17 @@ const Experience = () => {
                     Experience
                  <br/>
             </h1>
-            <hr className="my-4"></hr>
+            <hr className="my-4"/>
             <Container className="experience">
                 <Container>
-                Makers Academy
-                <br/>
-                Graduate Degree
-                <br/>
-                London, May 2019 - September 2019
-                <hr className="my-4"></hr>
+                    <h4>
+                        Makers Academy
+                        <br/>
+                        Graduate Degree
+                        <br/>
+                        London, May 2019 - September 2019
+                    </h4>
+                <hr className="my-4"/>
                 <ul>
                 <li>
                     Test-Driven Development (TDD), Object-Oriented Design (OOD)
@@ -39,25 +42,16 @@ const Experience = () => {
                     </li>
                 </ul>
                 </Container>
+
                 <Container>
-                Kitchen Manager
-                <br/>
-                Tempio Wine Bar, Greene king
-                <br/>
-                <hr className="my-4"></hr>
-                <ul>
-                    <li>
-                    Working as I chef, I learnt the importance of each individual when working in a team. In addition, I have learnt that resilience is the key to success.
-                    </li>
-                </ul>
-                </Container>
-                <Container>
-                Certificate of Higher Education (HNC) 
-                <br/>
-                Electronics, Microelectronics, Logic, Electricity.
-                <br/>
-                September 2010- June 2013
-                <hr className="my-4"></hr>
+                    <h4>
+                        Certificate of Higher Education (HNC) 
+                        <br/>
+                        Electronics & Electricity.
+                        <br/>
+                        September 2010- June 2013
+                    </h4>
+                <hr className="my-4"/>
                 <ul>
                 <li>
                     Build and learn about electronic components in general hardware such as radios, and TVs.
@@ -73,7 +67,36 @@ const Experience = () => {
                 </li>
                 </ul>
                 </Container>
+                <Container>
+                    <h4>
+                        Kitchen Manager
+                        <br/>
+                        Tempio Wine Bar, Greene king
+                        <br/>
+                        London, May 2014 - December 2020
+                    </h4>
+                <hr className="my-4"></hr>
+                <ul>
+                    <li>
+                        Working as I chef, I learnt the importance of each individual when working in a team. 
+                    </li>
+                    <li>
+                        In addition, I have learnt that resilience is the key to success.
+                    </li>
+                </ul>
+                </Container>
             </Container>
+                <div id="icons" className="text-left" >
+                            <h5>
+                                Find me on: 
+                                <a href="https://www.linkedin.com/in/jia-tian-leo-xia" rel="noopenr noreferrer" target="_blank">
+                                    <FaLinkedin />
+                                </a>    
+                                <a href="https://github.com/jaitone" rel="noopenr noreferrer" target="_blank">
+                                    <FaGithub />
+                                </a> 
+                            </h5>
+                </div>
     </div> 
     );
 }

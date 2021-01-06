@@ -5,28 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-/* #navbar {
-  position: fixed;
-} */
-
-body {
-	text-align: center;
+  text-align: center;
 }
 
 header {
+	border: solid rgb(0, 0, 0);
+	box-shadow: 0 10px 10px -10px #d3cfcf;
 	height: 100px;
 	background:  #d3cfcf;;
 	width: 100%;
 	z-index: 10;
 	position: fixed;
 }
+
 .logo {
 	width: 30%;
 	float: left;
 	line-height: 100px;
 }
+
 .logo a {
 	text-decoration: none;
 	font-size: 30px;
@@ -34,10 +31,12 @@ header {
 	color: rgb(0, 0, 0);
 	letter-spacing: 5px;
 }
+
 nav {
 	float: right;
 	line-height: 100px;
 }
+
 nav a {
 	text-decoration: none;
 	font-family: poppins;
@@ -46,7 +45,6 @@ nav a {
 	margin: 0 10px;
 	color: rgb(0, 0, 0);
 }
-
 
 .banner-area {
   top: 8%;
@@ -59,6 +57,7 @@ nav a {
 	background-size: cover;
 	background-position: center center;
 }
+
 .banner-area h2 {
 	padding-top: 10%;
 	font-size: 60px;
@@ -77,16 +76,17 @@ nav a {
   padding-top: 14%;
 	font-size: 20px;
 	font-family: poppins;
-	color: #fff;
+	color: #d3cfcf;
 }
 
 .content-area {
 	width: 100%;
 	position: relative;
 	top: 100vh;
-	background: #ffffff;
+	background: #d3cfcf;
 	height: 1500px;
 }
+
 .content-area h2 {
 	font-family: poppins;
 	letter-spacing: 4px;
@@ -94,6 +94,7 @@ nav a {
 	font-size: 40px;
 	margin: 0;
 }
+
 .content-area p {
 	padding: 2% 0px;
 	font-family: poppins;
@@ -126,9 +127,13 @@ nav a {
 }
 
 .experience {
+	text-align: left;
+  font-family: poppins;
   padding: 10%;
-  display: flex
+  display: flex;
+  background-color: #bdbdbd;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -7,7 +7,7 @@ const Introduction = () => {
 			    <h2>
                     Mario Garcia Piñan
                 </h2>
-                <div  className="intro">
+                <div className="intro">
                     <h3>
                         Junior Software developer
                     </h3>

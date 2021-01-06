@@ -1,7 +1,6 @@
 const NavigationBar = (props) => {
   return (
     <div >
-        
         <header>
 			<div class="wrapper">
 				<div class="logo">
