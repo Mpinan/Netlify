@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	/* border: solid rgb(0, 0, 0); */
+	border: solid rgb(0, 0, 0);
 	-webkit-box-shadow: 10px 10px 5px 0px #d3cfcf;
 	-moz-box-shadow: 10px 10px 5px 0px #d3cfcf;
 	box-shadow: 10px 10px 1000px 0px #d3cfcf;
