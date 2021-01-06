@@ -64,13 +64,13 @@ nav a {
 	font-size: 60px;
 	font-family: poppins;
 	text-transform: uppercase;
-	color: rgba(190, 185, 185, 0.555);
+	color:#d3cfcf;
 }
 
 .intro {
-	font-size: 20px;
+	font-size: 90px;
 	font-family: poppins;
-	color: rgb(141, 138, 138);
+	color: #d3cfcf;
 }
 
 .intro h4 {
