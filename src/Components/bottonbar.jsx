@@ -18,9 +18,6 @@ const BottonBar = () => {
             </div>
             <div id="textright">
                 <span>
-                    Contact: 
-                </span>
-                <span>
                     mgpinan1990@gmail.com
                 </span>
             </div>

@@ -1,6 +1,7 @@
 import Introduction from "./introduction"
 import { Container} from "reactstrap"
 import Experience from "./experience"
+import Projects from "./projects"
 
 const About = () => {
 
@@ -34,6 +35,7 @@ const About = () => {
                         </div>
                         <Experience/>
                     </Container>
+                    <Projects/>
                 </div>
             </div>
         </div>

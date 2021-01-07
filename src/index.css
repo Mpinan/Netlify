@@ -33,6 +33,12 @@ header {
 	letter-spacing: 5px;
 }
 
+.logo a:hover {
+	background: #f1f1f1;
+	color: black;
+  }
+
+
 nav {
 	float: right;
 	line-height: 100px;
@@ -46,6 +52,11 @@ nav a {
 	margin: 0 10px;
 	color: rgb(0, 0, 0);
 }
+
+nav a:hover {
+	background: #f1f1f1;
+	color: black;
+  }
 
 .banner-area {
   top: 8%;
