@@ -4,14 +4,10 @@ const Introduction = () => {
         <div>
 
             <div className="banner-area">
-			    <h2>
+			    <h3>
                     Mario Garcia Piñan
-                </h2>
+                </h3>
                 <div className="intro">
-                    <h3>
-                        Junior Software developer
-                    </h3>
-                        <br/>
                     <h4>
                         Seeking an opportunity to begin a career whilst furthering my knowledge of computer programming. 
                     <br/>

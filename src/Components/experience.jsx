@@ -1,5 +1,3 @@
-import { Container} from "reactstrap"
-
 const Experience = () => {
 
     return ( 
@@ -9,83 +7,42 @@ const Experience = () => {
                     Experience
                  <br/>
             </h1>
-            <hr className="my-4"/>
-            <Container className="experience">
-                <Container>
-                    <h4>
-                        Makers Academy
-                        <br/>
-                        Graduate Degree
-                        <br/>
-                        London, May 2019 - September 2019
-                    </h4>
-                <hr className="my-4"/>
+            <hr className="my-4"></hr>
+            <section className="breweries" id="breweries">
                 <ul>
-                <li>
-                    Test-Driven Development (TDD), Object-Oriented Design (OOD)
-                    </li>
-                    <li>
-                    Agile, XP, Pair Programming
-                    </li>
-                    <li>
-                    Full-stack development
-                    </li>
-                    <li>
-                    Frontend: HTML, CSS, Javascript, JQuery, Angular, React
-                    </li>
-                    <li>
-                    Backend: Ruby, Rails, Sinatra
-                    </li>
-                    <li>
-                    Testing frameworks: RSpec, Jasmine, Capybara
-                    </li>
+                  <li>
+                    <figure>
+                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                    </figure>
+                    <p>
+                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    </p>
+                    <a id="boton" href="/#">Visit Website</a>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                    </figure>
+                    <p>
+                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    </p>
+                    <a id="boton" href="/#">Visit Website</a>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                    </figure>
+                    <p>
+                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    </p>
+                    <a id="boton" href="/#">Visit Website</a>
+                  </li>
                 </ul>
-                </Container>
-
-                <Container>
-                    <h4>
-                        Certificate of Higher Education (HNC) 
-                        <br/>
-                        Electronics & Electricity.
-                        <br/>
-                        September 2010- June 2013
-                    </h4>
-                <hr className="my-4"/>
-                <ul>
-                <li>
-                    Build and learn about electronic components in general hardware such as radios, and TVs.
-                </li>
-                <li>
-                Designing multi-wire schemes for houses and building them.
-                </li>
-                <li>
-                    Install and learn about TV systems in a building.
-                </li>
-                <li>
-                    As part of the course I fixed and also built various computers, through purchasing individual components and assembling them.
-                </li>
-                </ul>
-                </Container>
-                <Container>
-                    <h4>
-                        Kitchen Manager
-                        <br/>
-                        Tempio Wine Bar, Greene king
-                        <br/>
-                        London, May 2014 - December 2020
-                    </h4>
-                <hr className="my-4"></hr>
-                <ul>
-                    <li>
-                        Working as I chef, I learnt the importance of each individual when working in a team. 
-                    </li>
-                    <li>
-                        In addition, I have learnt that resilience is the key to success.
-                    </li>
-                </ul>
-                </Container>
-            </Container>
-    </div> 
+            </section>
+        </div>
     );
 }
  
