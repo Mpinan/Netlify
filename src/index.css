@@ -29,7 +29,7 @@ header {
 
 .icon {
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 50px;
 	font-family: poppins;
 	color: rgb(0, 0, 0);
 	letter-spacing: 5px;
@@ -398,12 +398,41 @@ dl, ol, ul {
 			bottom: 0px;
 		}
 	}
+
+
+	/* .dropdown-content:active  {
+		float: none;
+		display: block;
+		text-align: left;
+		display: block;
+	} */
 	@media screen and (max-width : 800px){
 		.nav a {
 			display: none;
 		}
+
+		.logo {
+			display: none
+		}
+
 		.icon {
 			float: right;
+			display: block;
+		}
+
+		.icon :hover{
+			background: #f1f1f1;
+			color: black;
+		}
+
+		.icon .dropdown-content a:hover {
+			background-color: #ddd;
+		}
+
+		.dropdown-content:active  {
+			float: none;
+			display: block;
+			text-align: left;
 			display: block;
 		}
 

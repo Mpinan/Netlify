@@ -8,14 +8,17 @@ const NavigationBar = (props) => {
 					<a href="/#">Welcome!</a>
 				</div>
 				<nav className="nav">
-					<a href="/#">home</a> 
-          <a href="/#">about</a> 
-          <a href="/#">experience</a> 
-          <a href="/#">projects</a> 
-          <a href="/#">contact</a>
-        <div className="icon">
-            <FaBars />
-        </div>
+				  	<a href="/#">home</a> 
+            <a href="/#">about</a> 
+            <a href="/#">experience</a> 
+            <a href="/#">projects</a> 
+            <a href="/#">contact</a>
+            {/* <--------------> */}
+
+  {/* <---------------> */}
+          <div className="icon">
+              <FaBars />
+          </div>
 				</nav>
 		  </header>
     </div>
