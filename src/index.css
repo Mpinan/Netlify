@@ -8,6 +8,14 @@ body {
   text-align: center;
 }
 
+.App {
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
 header {
 	-webkit-box-shadow: 10px 10px 5px 0px #d3cfcf;
 	-moz-box-shadow: 10px 10px 5px 0px #d3cfcf;
@@ -17,6 +25,15 @@ header {
 	width: 100%;
 	z-index: 10;
 	position: fixed;
+}
+
+.icon {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: rgb(0, 0, 0);
+	letter-spacing: 5px;
+  display: none;
 }
 
 .logo {
@@ -58,109 +75,104 @@ nav a:hover {
 	color: black;
   }
 
-.banner-area {
-  	top: 8%;
-	width: 100%;
-  	height: 100vh;
-  	font-family: poppins;
-	position: fixed;
-	background-image: url("./Assets/1_MCn1VrXQznTi3JMtAIGK0g.jpeg");
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
+.landingpage{
+  padding-top: 13vh;
+  overflow: hidden;
+  width:100%;
+  height: 100%;
+  margin:auto;
+  display: block;
 }
 
-.banner-area h3 {
-	padding-top: 10%;
-	font-size: 60px;
-	font-family: poppins;
-	text-transform: uppercase;
-	color:#d3cfcf;
-}
-
-.intro {
-	font-size: 90px;
-	font-family: poppins;
-	color: #d3cfcf;
-}
-
-.intro h4 {
- 	padding-top: 10%;
-	font-size: 20px;
-	font-family: poppins;
-	color: #d3cfcf;
-}
-
-.content-area {
-	width: 100%;
-	position: relative;
-	top: 100vh;
-	background: #d3cfcf;
-	height: 1500px;
-}
-
-.content-area h2 {
-	font-family: poppins;
-	letter-spacing: 4px;
-	padding-top: 30px;
-	font-size: 40px;
-	margin: 0;
-}
-
-.content-area p {
-	text-align: center;
-	padding: 2% 0px;
-	font-family: poppins;
-	line-height: 30px;
-}
-
-#icons{
-  display: flex;
-}
-
-#icons a{
-  padding-left: 30px;
-  font-size: 40px;
-  color:black;
-}
-
-#icons h5{
-  font-weight: poppins;
-  margin: auto 0;
-  bottom: 0;
-  left:0;
-}
-
-.App {
-  text-align: center;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.experience {
+.banner-text{
 	text-align: left;
-  font-family: poppins;
-  padding: 5%;
-  display: flex;
-	background-color: #bdbdbd;
+  padding-top: 5%;
+  height: 100%;
+  width:80%;
+  margin: auto;
 }
 
+.banner-text-col{
+  margin-top: 3%;
+  float: left;
+  width: 38%;
+}
+
+.banner-text-col p{
+  text-align: justify;
+  text-justify: auto;
+  font-family: poppins;
+  font-weight: 500;
+  color: #525252;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-right:2em;
+}
+
+.banner-text h1{
+  font-size: 80px;
+  font-weight: 700;
+  font-family: poppins;
+}
+
+.aboutme{
+  padding-top: 7%;
+  display: block;
+}
+
+.aboutme-container{
+  margin: auto;
+	width: 80%;
+	box-shadow: 0px 10px 10px 10px;
+  background-color:  #d3cfcf;
+  border-radius: 25px;
+}
+
+
+.aboutme-text{
+	text-align: left;
+  padding: 8%;
+}
+
+.aboutme-container h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.aboutme-container p{
+	font-family: poppins;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.aboutme-profilepic{
+  text-align: left;
+}
+
+.aboutme-profilepic img{
+  position: absolute;
+  max-height: 100% 100vh;
+  width: 500px;
+  margin-left: 8%;
+  background-size: cover;
+  bottom: 0;
+}
 
 .buttonnavbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
   bottom: 0;
-  width: 100%;
+	width: 100%;
 	display: block;
 }
 
 .buttonnavbar a {
 	padding: 14px 16px;
 	font-size: 25px;
-  	float: left;
+  float: left;
 	color: #bdbdbd;
 }
 
@@ -192,68 +204,67 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .breweries {
-	padding: 2rem;
-  }
+		padding: 2rem;
+}
   
-  .breweries > ul {
+.breweries > ul {
 	list-style-type: none;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	grid-gap: 1rem;
-  }
-  
-  .breweries > ul > li {
+	grid-gap: 3rem;
+}
 
-	border: 1px solid #E2E2E2;
-	border-radius: .5rem;
-  }
+dl, ol, ul {
+	margin-bottom: 5rem!important;
+}
   
-  .breweries > ul > li > figure {
+.breweries > ul > li {
+	background-color:  #d3cfcf;
+	box-shadow: 0px 10px 10px 10px;
+	border-radius: .5rem;
+}
+  
+.breweries > ul > li > figure {
 	max-height: 220px;
 	overflow: hidden;
 	border-top-left-radius: .5rem;
 	border-top-right-radius: .5rem;
 	position: relative;
-  }
+}
   
-  .breweries > ul > li > figure > img {
+.breweries > ul > li > figure > img {
 	width: 100%;
-  }
+}
   
-  .breweries > ul > li > figure > figcaption {
+.breweries > ul > li > figure > figcaption {
 	position: absolute;
 	bottom: 0;
 	background-color: rgba(0,0,0,.7);
 	width: 100%;
-  }
+}
   
-  .breweries > ul > li > figure > figcaption > h3 {
+.breweries > ul > li > figure > figcaption > h3 {
 	color: white;
 	padding: .75rem;
 	font-size: 1.25rem;
-  }
+}
   
-  .breweries > ul > li > p {
+.breweries > ul > li > p {
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: 1rem .75rem;
 	color: #666666;
-  }
+}
   
   .breweries > ul > li > a {
 	padding: .5rem 1rem;
 	margin: .5rem;
-  }
+}
   
 
   #boton {
-	background-color: goldenrod;
+	background-color: #333;
 	text-decoration: none;
 	color: white;
 	border-radius: .25rem;
@@ -263,5 +274,141 @@ code {
   }
 
   #boton:hover {
-	opacity: .6;
-  }
+		background: #f1f1f1;
+		color: #333;
+		opacity: .6;
+	}
+	
+
+
+	@media only screen and (max-width:1299px){
+		.banner-text-col{
+			margin-top: 3%;
+			float: left;
+			width: 100%;
+		}
+	
+		.aboutme-profilepic img{
+			position: relative;
+			/* text-align: center; */
+			float: none;
+			width: 100%;
+		}
+	
+		.aboutme-profilepic{
+			text-align: center;
+		}
+	
+		.aboutme{
+			padding-top: 10px;
+		}
+	
+	}
+
+	@media only screen and (max-width:1200px){
+
+		.aboutme-profilepic img{
+			position: relative;
+			/* text-align: center; */
+			float: none;
+			width: 50%;
+		}
+	
+		.aboutme-profilepic{
+			text-align: center;
+		}
+	
+		.aboutme{
+			padding-top: 10px;
+		}
+	
+	}
+
+	@media (max-width:1200px) {
+		.nav > .nav-btn {
+			display: inline-block;
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+		.nav > .nav-btn > label {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			padding: 13px;
+		}
+		.nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+		.nav > .nav-btn > label > span {
+			display: block;
+			width: 25px;
+			height: 10px;
+			border-top: 2px solid #eee;
+		}
+		.nav > .nav-links {
+			position: absolute;
+			display: block;
+			width: 100%;
+			background-color: #333;
+			height: 0px;
+			transition: all 0.3s ease-in;
+			overflow-y: hidden;
+			top: 50px;
+			left: 0px;
+		}
+		.nav > .nav-links > a {
+			display: block;
+			width: 100%;
+		}
+		.nav > #nav-check:not(:checked) ~ .nav-links {
+			height: 0px;
+		}
+		.nav > #nav-check:checked ~ .nav-links {
+			height: calc(100vh - 50px);
+			overflow-y: auto;
+		}
+	}
+	
+	@media only screen and (max-width:1151px){
+		.aboutme-text{
+			width:100%;
+		}
+	
+		 .banner-text h1{
+			font-size: 70px;
+		}
+	}
+	
+	@media only screen and (max-width:991px){
+		.aboutme-profilepic img{
+			position: relative;
+			float: none;
+			width: 55%;
+		}
+	
+		.aboutme-profilepic{
+			text-align: center;
+		}
+	
+		.contact-img img{
+			position: absolute;
+			right:0;
+			width:25%;
+			bottom: 0px;
+		}
+	}
+	@media screen and (max-width : 800px){
+		.nav a {
+			display: none;
+		}
+		.icon {
+			float: right;
+			display: block;
+		}
+
+
+	}
+
+
+

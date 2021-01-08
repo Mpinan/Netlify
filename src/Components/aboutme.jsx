@@ -1,23 +1,26 @@
-import Introduction from "./introduction"
-import { Container} from "reactstrap"
-import Experience from "./experience"
-import Projects from "./projects"
+import {  Row, Col} from "reactstrap"
+import Picture from "../Assets/me.png"
+
 
 const About = () => {
 
     return (
-        <div>
-            <Introduction />
-            <div className="wrapper">
-                <div className="content-area">
-                    <Container>
-                            <h1 className="display-5">
-                                <br/>
-                                    About me
-                                <br/>
-                            </h1>
-                            <hr className="my-4"></hr>
-                        <div className="text-left">
+            <div>
+                <div className="aboutme" style={{width:'100%', margin:'auto'}}>
+                <h1 className="display-5">
+                    <br/>
+                        About me
+                    <br/>
+                </h1>
+                <hr className="my-4"></hr>
+                    <div className="aboutme-container">
+                        <Row className="aboutme-row">
+                        <Col xl={6} className="aboutme-profilepic">
+                                <img src={Picture} alt="profilepic"></img>
+                            </Col>
+                            <Col xl={6}>
+                        <div className="aboutme-text">
+
                             <p>
                                 In early 2019, I made the decision to hang up my apron and change my life by learning how to code.
                             <br/>
@@ -36,13 +39,14 @@ const About = () => {
                                 computer programming.
                             <br/>
                             </p>
-                        </div>
-                    <Experience/>
-                    </Container>
-                    <Projects/>
+                        </div>                              
+                            </Col>
+
+                        </Row>
+                    </div>
                 </div>
-            </div>
-        </div>
+
+                </div>
       );
 };
  

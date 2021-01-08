@@ -1,21 +1,23 @@
+import { FaBars } from 'react-icons/fa';
+
 const NavigationBar = (props) => {
   return (
-    <div >
-        <header>
-			<div className="wrapper">
+    <div>
+      <header>
 				<div className="logo">
 					<a href="/#">Welcome!</a>
 				</div>
-				<nav>
+				<nav className="nav">
 					<a href="/#">home</a> 
           <a href="/#">about</a> 
           <a href="/#">experience</a> 
           <a href="/#">projects</a> 
           <a href="/#">contact</a>
+        <div className="icon">
+            <FaBars />
+        </div>
 				</nav>
-			</div>
-		</header>
-        
+		  </header>
     </div>
   );
 }
