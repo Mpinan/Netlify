@@ -33,7 +33,7 @@ header {
 	font-family: poppins;
 	color: rgb(0, 0, 0);
 	letter-spacing: 5px;
-  display: none;
+  	display: none;
 }
 
 .logo {
@@ -44,10 +44,11 @@ header {
 
 .logo a {
 	text-decoration: none;
-	font-size: 30px;
 	font-family: poppins;
-	color: rgb(0, 0, 0);
+	font-size: 30px;
 	letter-spacing: 5px;
+	margin: 0 10px;
+	color: rgb(0, 0, 0);
 }
 
 .logo a:hover {
@@ -324,51 +325,6 @@ dl, ol, ul {
 	
 	}
 
-	@media (max-width:1200px) {
-		.nav > .nav-btn {
-			display: inline-block;
-			position: absolute;
-			right: 0px;
-			top: 0px;
-		}
-		.nav > .nav-btn > label {
-			display: inline-block;
-			width: 50px;
-			height: 50px;
-			padding: 13px;
-		}
-		.nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-			background-color: rgba(0, 0, 0, 0.3);
-		}
-		.nav > .nav-btn > label > span {
-			display: block;
-			width: 25px;
-			height: 10px;
-			border-top: 2px solid #eee;
-		}
-		.nav > .nav-links {
-			position: absolute;
-			display: block;
-			width: 100%;
-			background-color: #333;
-			height: 0px;
-			transition: all 0.3s ease-in;
-			overflow-y: hidden;
-			top: 50px;
-			left: 0px;
-		}
-		.nav > .nav-links > a {
-			display: block;
-			width: 100%;
-		}
-		.nav > #nav-check:not(:checked) ~ .nav-links {
-			height: 0px;
-		}
-		.nav > #nav-check:checked ~ .nav-links {
-			height: calc(100vh - 50px);
-			overflow-y: auto;
-		}
-	}
 	
 	@media only screen and (max-width:1151px){
 		.aboutme-text{
@@ -399,23 +355,36 @@ dl, ol, ul {
 		}
 	}
 
-
-	/* .dropdown-content:active  {
-		float: none;
-		display: block;
-		text-align: left;
-		display: block;
-	} */
 	@media screen and (max-width : 800px){
-		.nav a {
-			display: none;
+		nav {
+			display: grid!important;
+			flex-wrap: wrap!important;
+			padding-left: 0!important;
+			margin-bottom: 0!important;
+			list-style: none;
+			background-color:#d3cfcf;
 		}
+		
+		nav a {
+			text-decoration: none;
+			font-family: poppins;
+			letter-spacing: 4px;
+			font-size: 20px;
+			margin: 0 10px;
+			color: rgb(0, 0, 0);
+		}
+		
+		nav a:hover {
+			background: #f1f1f1;
+			color: black;
+		  }
 
 		.logo {
 			display: none
 		}
 
 		.icon {
+			margin-right: 5%;
 			float: right;
 			display: block;
 		}
@@ -428,12 +397,8 @@ dl, ol, ul {
 		.icon .dropdown-content a:hover {
 			background-color: #ddd;
 		}
-
-		.dropdown-content:active  {
-			float: none;
-			display: block;
-			text-align: left;
-			display: block;
+		.hiddennav{
+			display: inline;
 		}
 
 
