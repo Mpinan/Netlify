@@ -1,6 +1,6 @@
 import { FaBars } from 'react-icons/fa';
 import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse } from 'reactstrap';
 
 const NavigationBar = (props) => {
 
