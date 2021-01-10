@@ -18,7 +18,7 @@ const NavigationBar = (props) => {
           <div className="icon" onClick={toggleNavbar} >
               <FaBars onClick={toggleNavbar} />
           </div>
-          <Collapse isOpen={!collapsed} navbar>
+          <Collapse isOpen={collapsed} navbar>
 				    <nav className="nav">
 				      	<a href="/#">home</a> 
                 <a href="/#">about</a> 
