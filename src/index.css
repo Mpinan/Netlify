@@ -205,11 +205,13 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-/* .breweries {
+.breweries {
+	margin: auto;
 		padding: 2rem;
-} */
+}
   
 .breweries > ul {
+	padding: initial;
 	list-style-type: none;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
