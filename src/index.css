@@ -205,9 +205,9 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-.breweries {
+/* .breweries {
 		padding: 2rem;
-}
+} */
   
 .breweries > ul {
 	list-style-type: none;
@@ -378,10 +378,6 @@ dl, ol, ul {
 			background: #f1f1f1;
 			color: black;
 		  }
-
-		.logo {
-			display: none
-		}
 
 		.icon {
 			margin-right: 5%;
