@@ -20,7 +20,7 @@ const Introduction = () => {
                         Born and raised in Spain, I have always been a passionate about technology, specially hardware.
                         <br />
                         <br />
-                        But it wasn't untill I came to London, and after a few years of learning the language, that I discover coding.
+                        But it wasn't untill I came to London, and after a few years of learning the language, that I discovered coding.
                         <br />
                         <br />
                         Now, I can't stop!

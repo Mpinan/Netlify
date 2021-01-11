@@ -29,11 +29,24 @@ body {
   display: none;
 }
 
+/* .logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+  display: none;
+} */
+
+.logo a {
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin: 0 10px;
+	color: rgb(0, 0, 0);
+}
+
 nav {
 	box-shadow: 0 10px 100px 0 #000;
 	background-color: #d3cfcf;
 }
-
 
 nav a {
 	text-align: right!important;
@@ -50,7 +63,6 @@ nav ul li:hover {
 
 nav ul li a:hover {
 	transition: all 0.5s ease 0s;
-	/* background: #333; */
 	color: #d3cfcf
 	
   }
@@ -63,6 +75,8 @@ nav ul li a:hover {
   margin:auto;
   display: block;
 }
+
+
 
 .banner-text{
 	text-align: left;
@@ -81,7 +95,6 @@ nav ul li a:hover {
 .banner-text-col p{
   text-align: justify;
   text-justify: auto;
-  
   font-weight: 500;
   color: #525252;
   font-size: 18px;
@@ -160,7 +173,6 @@ nav ul li a:hover {
 	padding: 14px 16px;
 	font-size: 25px;
 	color: #bdbdbd;
-	
 	float: right;
 	color: #bdbdbd!important;
 }
@@ -169,7 +181,6 @@ nav ul li a:hover {
 	padding: 14px 16px;
 	font-size: 25px;
 	color: #bdbdbd;
-	
 	float: left;
 	color: #bdbdbd!important;
 }
@@ -306,7 +317,6 @@ nav ul li a:hover {
 		}
 	
 	}
-
 	
 	@media only screen and (max-width:1151px){
 		.aboutme-text{
