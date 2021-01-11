@@ -18,13 +18,11 @@ const NavigationBar = (props) => {
 
   return (
     <div>
-      <Navbar className="fixed-top" expand="md">
+      <Navbar className="fixed-top p-0" expand="md">
         <NavbarBrand href="/">Welcome</NavbarBrand>
-        {/* <div className="toggleicon"> */}
             <FaBars className="toggleicon" onClick={toggle} />
-        {/* </div> */}
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink href="/#">about me</NavLink>
             </NavItem>
