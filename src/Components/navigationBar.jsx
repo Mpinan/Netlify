@@ -3,7 +3,6 @@ import { FaBars } from 'react-icons/fa';
 import {
   Collapse,
   Navbar,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -20,7 +19,7 @@ const NavigationBar = (props) => {
     <div>
       <Navbar className="fixed-top p-0" expand="md">
       <div className="logo">
-					<a>Welcome!</a>
+					Welcome!
 			</div>
             <FaBars className="toggleicon" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

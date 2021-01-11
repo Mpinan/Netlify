@@ -29,14 +29,7 @@ body {
   display: none;
 }
 
-/* .logo {
-	width: 30%;
-	float: left;
-	line-height: 100px;
-  display: none;
-} */
-
-.logo a {
+.logo {
 	font-size: 30px;
 	letter-spacing: 5px;
 	margin: 0 10px;
