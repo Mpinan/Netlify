@@ -8,12 +8,12 @@ const Introduction = () => {
                 <h1>
                     Looking for a web developer?
                     <br />
-                    <h2>
-                    Hi, I'm Mario, a full-stack software developer.
-                    <br />
-                    Keep scrolling to see what I do!
-                    </h2>
                 </h1>
+                <h2>
+                    Hi, I'm Mario, a full-stack software developer.
+                <br />
+                    Keep scrolling to see what I do!
+                </h2>
                 <br />
                 <div className="banner-text-col">
                     <p>
