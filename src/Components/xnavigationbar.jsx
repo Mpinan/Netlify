@@ -10,8 +10,7 @@ import {
   UncontrolledDropdown,
 } from 'reactstrap';
 
-const NavigationBar = (props) => {
-
+const Navibar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -19,23 +18,17 @@ const NavigationBar = (props) => {
   return (
     <div>
       <Navbar className="fixed-top" expand="md">
-        <NavbarBrand href="/">Welcome</NavbarBrand>
-        {/* <div className="toggleicon"> */}
+        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <div className="toggleicon">
             <FaBars className="toggleicon" onClick={toggle} />
-        {/* </div> */}
+        </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/#">about me</NavLink>
+              <NavLink href="/components/">Components</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#">experience</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#">projects</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#">contact</NavLink>
+              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
             </UncontrolledDropdown>
@@ -46,4 +39,4 @@ const NavigationBar = (props) => {
   );
 }
 
-export default NavigationBar;
+export default Navibar;
