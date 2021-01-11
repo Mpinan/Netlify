@@ -5,7 +5,7 @@ import Picture from "../Assets/me.png"
 const About = () => {
 
     return (
-            <div>
+            <div id="aboutme">
                 <div className="aboutme" style={{width:'100%', margin:'auto'}}>
                 <h1 className="display-5">
                     <br/>

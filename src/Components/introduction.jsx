@@ -2,8 +2,7 @@ const Introduction = () => {
 
     return (
 
-        // <section id="home">
-        <div className="landingpage">
+        <div id="home" className="landingpage">
             <div className="banner-text">
                 <h1>
                     Looking for a web developer?
