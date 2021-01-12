@@ -237,6 +237,10 @@ nav ul li a:hover {
 	padding: .75rem;
 	font-size: 1.25rem;
 }
+.breweries > ul > li > figure > figcaption > h2 {
+	color: white;
+	padding: .75rem;
+}
   
 .breweries > ul > li > p {
 	font-size: 1rem;

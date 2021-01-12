@@ -35,8 +35,6 @@ const Introduction = () => {
                 </div>
             </div>             
         </div>
-    //   </section>
-
 
       );
 };

@@ -16,42 +16,117 @@ const Experience = () => {
                   <li>
                     <figure>
                       <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
-                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                      <figcaption>
+                        <h2>
+                          Makers Academy 
+                        </h2>
+                        <h3>
+                          Graduate Degree               
+                          <br/>
+                          June 2019 - October 2019, London.
+                          </h3>
+                        </figcaption>
                     </figure>
                     <p>
-                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    - A highly selective, 12-week intensive course that focuses on
+                      full stack web development grounded in Ruby.
+                      <br/>
+                    - Emphasizes on TDD, OOP, software design and development.
+                    <br/>
+                    - Agile methodology, pair programming, team projects.
                     </p>
-                    <a id="boton" href="/#">Visit Website</a>
                   </li>
                   <li>
                     <figure>
                       <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
-                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                      <figcaption>
+                        <h2>
+                          Electronic and electric systems
+                        </h2>
+                        <h3>
+                          Certificate of Higher Education (HNC)
+                          <br/>
+                          September 2009 - June 2012, Spain.
+                        </h3>
+                      </figcaption>
                     </figure>
                     <p>
-                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    - Build and learn about electronic components in general hardware such as radios, and TVs.
+                    <br/>
+                    - Designing multi-wire schemes for houses and building them.
+                    <br/>
+                    - Install and learn about TV systems in a building.
+                    <br/>
+                    - As part of the course I fixed and also built various computers, through purchasing individual components and assembling them.
                     </p>
-                    <a id="boton" href="/#">Visit Website</a>
                   </li>
                   <li>
                     <figure>
                       <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
-                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                      <figcaption>
+                        <h2>
+                        Kitchen Manager
+                        </h2>
+                        <h3>
+                        Tempio Wine Bar, Greene king
+                        <br/>
+                        May 2014 - December 2020, London
+                        </h3>
+                      </figcaption>
                     </figure>
                     <p>
-                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    - Build and learn about electronic components in general hardware such as radios, and TVs.
+                    <br/>
+                    - Designing multi-wire schemes for houses and building them.
+                    <br/>
+                    - Install and learn about TV systems in a building.
+                    <br/>
+                    - As part of the course I fixed and also built various computers, through purchasing individual components and assembling them.
                     </p>
-                    <a id="boton" href="/#">Visit Website</a>
                   </li>
                   <li>
                     <figure>
                       <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
-                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                      <figcaption>
+                        <h2>
+                        Lift technician
+                        </h2>
+                        <h3>
+                        IZA-Ascensores(Lift company)
+                        <br/>
+                        June 2012 - January 2013, Spain.
+                        </h3>
+                      </figcaption>
                     </figure>
                     <p>
-                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    - Assemble, install, maintain, and replace lifts.
+                    <br/>
+                    - Floor balance.
+                    <br/>
+                    - Precision, attention to detail and ability to work autonomously.
                     </p>
-                    <a id="boton" href="/#">Visit Website</a>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <figcaption>
+                        <h2>
+                        IT support technician
+                        </h2>
+                        <h3>
+                        A&M INFORMATICA
+                        <br/>
+                        June 2012 - January 2013, Spain.
+                        </h3>
+                      </figcaption>
+                    </figure>
+                    <p>
+                    - Assemble, maintain, and repair computers.
+                    <br/>
+                    - Advice customers, given their needs, which hardware will suit therm best.
+                    <br/>
+                    - Thorough and pay attention to detail.
+                    </p>
                   </li>
                 </ul>
             </section>
