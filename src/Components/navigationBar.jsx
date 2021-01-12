@@ -31,7 +31,7 @@ const NavigationBar = (props) => {
               <NavLink href="/#aboutme">about me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#experience">experience</NavLink>
+              <NavLink href="/#resume">resume</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#projects">projects</NavLink>

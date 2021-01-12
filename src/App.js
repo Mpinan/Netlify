@@ -3,7 +3,7 @@ import NavigationBar from "./Components/navigationBar";
 import About from "./Components/aboutme"
 import BottonBar from "./Components/bottonbar"
 import Introduction from "./Components/introduction"
-import Experience from "./Components/experience"
+import Resume from "./Components/resume"
 import Projects from "./Components/projects"
 
 
@@ -15,7 +15,7 @@ class App extends Component {
           <NavigationBar/>
           <Introduction />
           <About/>
-          <Experience/>
+          <Resume/>
           <Projects/>
           <BottonBar/>
       </div>

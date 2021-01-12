@@ -69,8 +69,6 @@ nav ul li a:hover {
   display: block;
 }
 
-
-
 .banner-text{
 	text-align: left;
   padding-top: 5%;
@@ -98,11 +96,10 @@ nav ul li a:hover {
 .banner-text h1{
   font-size: 80px;
   font-weight: 700;
-  
 }
 
 .aboutme{
-  padding-top: 7%;
+  padding-top: 10%;
   display: block;
 }
 
@@ -113,7 +110,6 @@ nav ul li a:hover {
   background-color:  #d3cfcf;
   border-radius: 25px;
 }
-
 
 .aboutme-text{
 	text-align: left;
@@ -144,6 +140,10 @@ nav ul li a:hover {
   margin-left: 8%;
   background-size: cover;
   bottom: 0;
+}
+
+#resume {
+	padding-top: 10%;
 }
 
 .buttonnavbar {
@@ -202,9 +202,6 @@ nav ul li a:hover {
 	grid-gap: 3rem;
 }
 
-/* dl, ol, ul {
-	margin-bottom: 5rem!important;
-} */
   
 .breweries > ul > li {
 	margin-bottom: 5rem!important;
@@ -237,12 +234,14 @@ nav ul li a:hover {
 	padding: .75rem;
 	font-size: 1.25rem;
 }
+
 .breweries > ul > li > figure > figcaption > h2 {
 	color: white;
 	padding: .75rem;
 }
   
 .breweries > ul > li > p {
+	text-align: left;
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: 1rem .75rem;
@@ -345,6 +344,27 @@ nav ul li a:hover {
 	}
 
 	@media only screen and (max-width:767px){
+		.breweries > ul {
+			padding: initial;
+			list-style-type: none;
+			grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+			display: grid;
+			grid-gap: 3rem;
+		}
+
+		.breweries > ul > li > figure > figcaption > h3 {
+			color: white;
+			padding: .75rem;
+			font-size: 1rem;
+		}
+		
+		.breweries > ul > li > figure > figcaption > h2 {
+			color: white;
+			padding: .75rem;
+			font-size: 1rem;
+		}
+
+
 		.toggleicon{
 			display: inline;
 		}

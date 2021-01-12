@@ -1,12 +1,12 @@
 import { Container} from "reactstrap"
 
-const Experience = () => {
+const Resume = () => {
 
     return ( 
-        <div id="experience">
+        <div id="resume">
             <h1 className="display-5">
                 <br/>
-                    Experience
+                    Resume
                  <br/>
             </h1>
             <hr className="my-4"></hr>
@@ -135,4 +135,4 @@ const Experience = () => {
     );
 }
  
-export default Experience;
+export default Resume;
