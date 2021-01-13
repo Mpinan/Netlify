@@ -66,7 +66,7 @@ const Resume = () => {
                 </li>
                 <li>
                   <figure>
-                    <img src="https://www.careeraddict.com/uploads/article/30848/IT_support_technicians_c.jpg" alt="Several hands holding beer glasses"/>
+                    <img src="https://www.alittlebitofall.com.au/wp-content/uploads/2017/01/IT-Specialists.jpg" alt="Several hands holding beer glasses"/>
                     <figcaption>
                       <h2>
                         IT support technician
