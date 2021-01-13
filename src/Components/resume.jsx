@@ -60,6 +60,12 @@ const Resume = () => {
                     - As part of the course I fixed and also built various computers, through purchasing individual components and assembling them.
                     </p>
                   </li>
+                  <h1 className="display-5">
+                <br/>
+                    Resume
+                 <br/>
+            </h1>
+            <hr className="my-4"></hr>
                   <li>
                     <figure>
                       <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/02/11/kitchen-staff-chef.jpg?width=982&height=726" alt="Several hands holding beer glasses"/>
@@ -116,7 +122,7 @@ const Resume = () => {
                         <h3>
                         A&M INFORMATICA
                         <br/>
-                        June 2012 - January 2013, Spain.
+                        August 2013 - January 2014, Spain.
                         </h3>
                       </figcaption>
                     </figure>

@@ -29,7 +29,7 @@ const Projects = () => {
                     <p>
                     A humble copy of facebook with posts, albums...
                     </p>
-                    <a id="boton" href="/#">Visit Github Project</a>
+                    <a id="boton" href="https://github.com/jaitone/acebook-good-guys">Visit Github Project</a>
                   </li>
                   <li>
                     <figure>
@@ -46,7 +46,7 @@ const Projects = () => {
                     <p>
                     An app where you can increase or lower the temperature and check the weather in different cities thanks to the weather API 
                     </p>
-                    <a id="boton" href="/#">Visit Github Project</a>
+                    <a id="boton" href="https://github.com/jaitone/Thermostat/blob/master/src/thermostat.js">Visit Github Project</a>
                   </li>
                   <li>
                     <figure>
@@ -63,7 +63,7 @@ const Projects = () => {
                     <p>
                     A route app that draws a route from point A to B, given an origin and a destination postcodes, using google maps API. Also able to store and use the routes in the future.
                     </p>
-                    <a id="boton" href="/#">Visit Github Project</a>
+                    <a id="boton" href="https://github.com/jaitone/RouteApp">Visit Github Project</a>
                   </li>
                   <li>
                     <figure>
@@ -80,7 +80,7 @@ const Projects = () => {
                     <p>
                     A Front-End app, using a given Back-end in RoR, where you can CRUD peeps and create an account.
                     </p>
-                    <a id="boton" href="/#">Visit Github Project</a>
+                    <a id="boton" href="https://github.com/jaitone/Chwetter">Visit Github Project</a>
                   </li>
                   <li>
                     <figure>
@@ -97,7 +97,7 @@ const Projects = () => {
                     <p>
                       My own website, the one you are currently looking at.
                     </p>
-                    <a id="boton" href="/#">Visit Github Project</a>
+                    <a id="boton" href="https://github.com/jaitone/Netlify">Visit Github Project</a>
                   </li>
                 </ul>
             </section>
