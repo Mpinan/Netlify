@@ -1,3 +1,8 @@
+import AcebookPhoto from "../Assets/Untitled.png"
+import WeatherPhoto from "../Assets/weatherapp.jpg"
+import RouteAppPhoto from "../Assets/routapp.png"
+import WebPhoto from "../Assets/website.png"
+
 const Projects = () => {
     return ( 
         <div id="projects">
@@ -11,33 +16,88 @@ const Projects = () => {
                 <ul>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
-                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                      <img src={AcebookPhoto} alt="Several hands holding beer glasses"/>
+                      <figcaption>
+                        <h2>
+                        Acebook
+                        </h2>
+                        <h3>
+                        Ruby on rails, RSpec, Capybara, PostgreSQL, Active Record, Bootstrap, RuboCop, Simplecov
+                        </h3>
+                      </figcaption>
                     </figure>
                     <p>
-                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    A humble copy of facebook with posts, albums...
                     </p>
-                    <a id="boton" href="/#">Visit Website</a>
+                    <a id="boton" href="/#">Visit Github Project</a>
                   </li>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
-                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                      <img src={WeatherPhoto} alt="Several hands holding beer glasses"/>
+                      <figcaption>
+                        <h2>
+                        Thermostat
+                        </h2>
+                        <h3>
+                        Javascript, Jasmine, jQuery, HTML, CSS
+                        </h3>
+                      </figcaption>
                     </figure>
                     <p>
-                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    An app where you can increase or lower the temperature and check the weather in different cities thanks to the weather API 
                     </p>
-                    <a id="boton" href="/#">Visit Website</a>
+                    <a id="boton" href="/#">Visit Github Project</a>
                   </li>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
-                      <figcaption><h3>Billions upon billions</h3></figcaption>
+                      <img src={RouteAppPhoto} alt="Several hands holding beer glasses"/>
+                      <figcaption>
+                        <h2>
+                          RoutApp
+                        </h2>
+                        <h3>
+                          React, Bootstrap, Express, PostgreSQL, Reactstrap, HTML, CSS
+                        </h3>
+                      </figcaption>
                     </figure>
                     <p>
-                      Made in the interiors of collapsing stars star stuff harvesting star light venture billions upon billions Drake Equation brain is the seed of intelligence?
+                    A route app that draws a route from point A to B, given an origin and a destination postcodes, using google maps API. Also able to store and use the routes in the future.
                     </p>
-                    <a id="boton" href="/#">Visit Website</a>
+                    <a id="boton" href="/#">Visit Github Project</a>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src="https://thecleverest.com/wp-content/uploads/2020/01/fake-twitter.png" alt="Several hands holding beer glasses"/>
+                      <figcaption>
+                        <h2>
+                        Chwetter
+                        </h2>
+                        <h3>
+                        React, Bootstrap, Reactstrap, HTML, CSS
+                        </h3>
+                      </figcaption>
+                    </figure>
+                    <p>
+                    A Front-End app, using a given Back-end in RoR, where you can CRUD peeps and create an account.
+                    </p>
+                    <a id="boton" href="/#">Visit Github Project</a>
+                  </li>
+                  <li>
+                    <figure>
+                      <img src={WebPhoto} alt="Several hands holding beer glasses"/>
+                      <figcaption>
+                        <h2>
+                        Portfolio
+                        </h2>
+                        <h3>
+                        React, Bootstrap, Reactstrap, HTML, CSS
+                        </h3>
+                      </figcaption>
+                    </figure>
+                    <p>
+                      My own website, the one you are currently looking at.
+                    </p>
+                    <a id="boton" href="/#">Visit Github Project</a>
                   </li>
                 </ul>
             </section>

@@ -15,7 +15,7 @@ const Resume = () => {
                 <ul>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <img src="https://lexgocode.files.wordpress.com/2016/05/img.png" alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
                           Makers Academy 
@@ -38,7 +38,7 @@ const Resume = () => {
                   </li>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <img src="https://www.nutsvolts.com/uploads/articles/NV_0704_Christopherson_Large.jpg" alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
                           Electronic and electric systems
@@ -62,7 +62,7 @@ const Resume = () => {
                   </li>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/02/11/kitchen-staff-chef.jpg?width=982&height=726" alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
                         Kitchen Manager
@@ -86,7 +86,7 @@ const Resume = () => {
                   </li>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <img src="https://www.cmalifts.com/wp-content/uploads/2018/11/art2img.jpg" alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
                         Lift technician
@@ -108,7 +108,7 @@ const Resume = () => {
                   </li>
                   <li>
                     <figure>
-                      <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"/>
+                      <img src="https://www.careeraddict.com/uploads/article/30848/IT_support_technicians_c.jpg" alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
                         IT support technician
@@ -123,7 +123,7 @@ const Resume = () => {
                     <p>
                     - Assemble, maintain, and repair computers.
                     <br/>
-                    - Advice customers, given their needs, which hardware will suit therm best.
+                    - Advice customers, given their needs, which hardware will suit them best.
                     <br/>
                     - Thorough and pay attention to detail.
                     </p>
