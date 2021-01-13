@@ -20,7 +20,7 @@ const Resume = () => {
               <ul>
                 <li>
                   <figure>
-                    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/02/11/kitchen-staff-chef.jpg?width=982&height=726" alt="Several hands holding beer glasses"/>
+                    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/02/11/kitchen-staff-chef.jpg?width=982&height=726" alt="Kitchen Manager"/>
                     <figcaption>
                       <h2>
                         Kitchen Manager
@@ -44,7 +44,7 @@ const Resume = () => {
                 </li>
                 <li>
                   <figure>
-                    <img src="https://www.cmalifts.com/wp-content/uploads/2018/11/art2img.jpg" alt="Several hands holding beer glasses"/>
+                    <img src="https://www.cmalifts.com/wp-content/uploads/2018/11/art2img.jpg" alt="Lift technician"/>
                     <figcaption>
                       <h2>
                       Lift technician
@@ -66,7 +66,7 @@ const Resume = () => {
                 </li>
                 <li>
                   <figure>
-                    <img src="https://www.alittlebitofall.com.au/wp-content/uploads/2017/01/IT-Specialists.jpg" alt="Several hands holding beer glasses"/>
+                    <img src="https://www.alittlebitofall.com.au/wp-content/uploads/2017/01/IT-Specialists.jpg" alt="IT support technician"/>
                     <figcaption>
                       <h2>
                         IT support technician
@@ -99,7 +99,7 @@ const Resume = () => {
               <ul>
                 <li>
                   <figure>
-                    <img src="https://lexgocode.files.wordpress.com/2016/05/img.png" alt="Several hands holding beer glasses"/>
+                    <img src="https://lexgocode.files.wordpress.com/2016/05/img.png" alt="Makers Academy"/>
                     <figcaption>
                       <h2>
                         Makers Academy 
@@ -122,7 +122,7 @@ const Resume = () => {
                 </li>
                 <li>
                   <figure>
-                    <img src="https://www.nutsvolts.com/uploads/articles/NV_0704_Christopherson_Large.jpg" alt="Several hands holding beer glasses"/>
+                    <img src="https://www.nutsvolts.com/uploads/articles/NV_0704_Christopherson_Large.jpg" alt="Electronic and electric systems"/>
                     <figcaption>
                       <h2>
                         Electronic and electric systems
