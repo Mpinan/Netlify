@@ -33,13 +33,9 @@ const Resume = () => {
                     </figcaption>
                   </figure>
                     <p>
-                      - Build and learn about electronic components in general hardware such as radios, and TVs.
+                      - Managing fellow chefs and training new team members.
                       <br/>
-                      - Designing multi-wire schemes for houses and building them.
-                      <br/>
-                      - Install and learn about TV systems in a building.
-                      <br/>
-                      - As part of the course I fixed and also built various computers, through purchasing individual components and assembling them.
+                      - Remained calm during challenging situations that raised in a fast-paced work environment.
                     </p>
                 </li>
                 <li>
