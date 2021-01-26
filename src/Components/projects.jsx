@@ -27,7 +27,10 @@ const Projects = () => {
                       </figcaption>
                     </figure>
                     <p>
+                    
                     A humble copy of facebook with posts, albums...
+
+
                     </p>
                     <a id="boton" href="https://github.com/jaitone/acebook-good-guys">Visit Github Project</a>
                   </li>
