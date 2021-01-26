@@ -364,15 +364,15 @@ nav ul li a:hover {
 		.breweries > ul > li > figure > figcaption > h3 {
 			color: white;
 			padding: .75rem;
-			font-size: 1.3rem;
+			font-size: 1rem;
 		}
 		
 		.breweries > ul > li > figure > figcaption > h2 {
 			color: white;
 			padding: .75rem;
-			font-size: 1rem;
+			font-size: 1.3rem;
 		}
-		
+
 		.toggleicon{
 			display: inline;
 		}
