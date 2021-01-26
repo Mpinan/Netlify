@@ -361,6 +361,18 @@ nav ul li a:hover {
 			grid-gap: 0rem;
 		}
 
+		.breweries > ul > li > figure > figcaption > h3 {
+			color: white;
+			padding: .75rem;
+			font-size: 1.3rem;
+		}
+		
+		.breweries > ul > li > figure > figcaption > h2 {
+			color: white;
+			padding: .75rem;
+			font-size: 1rem;
+		}
+		
 		.toggleicon{
 			display: inline;
 		}
