@@ -19,18 +19,15 @@ const Projects = () => {
                       <img src={AcebookPhoto} alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
-                        Acebook
+                          Acebook
                         </h2>
                         <h3>
-                        Ruby on rails, RSpec, Capybara, PostgreSQL, Active Record, Bootstrap, RuboCop, Simplecov
+                          Ruby on rails, RSpec, Capybara, PostgreSQL, Active Record, Bootstrap, RuboCop, Simplecov
                         </h3>
                       </figcaption>
                     </figure>
                     <p>
-                    
-                    A humble copy of facebook with posts, albums...
-
-
+                      A humble copy of facebook where you can post, and share with other users. You can also create albums and share your pictures.
                     </p>
                     <a id="boton" href="https://github.com/jaitone/acebook-good-guys">Visit Github Project</a>
                   </li>
@@ -39,15 +36,15 @@ const Projects = () => {
                       <img src={WeatherPhoto} alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
-                        Thermostat
+                          Thermostat
                         </h2>
                         <h3>
-                        Javascript, Jasmine, jQuery, HTML, CSS
+                          Javascript, Jasmine, jQuery, HTML, CSS
                         </h3>
                       </figcaption>
                     </figure>
                     <p>
-                    An app where you can increase or lower the temperature and check the weather in different cities thanks to the weather API 
+                      An app where you can increase or lower the temperature, and check the weather in different cities thanks to the weather API. 
                     </p>
                     <a id="boton" href="https://github.com/jaitone/Thermostat/blob/master/src/thermostat.js">Visit Github Project</a>
                   </li>
@@ -64,7 +61,9 @@ const Projects = () => {
                       </figcaption>
                     </figure>
                     <p>
-                    A route app that draws a route from point A to B, given an origin and a destination postcodes, using google maps API. Also able to store and use the routes in the future.
+                      A route app that draws a route from point A to B, given an origin and a destination postcodes, using google maps API. 
+                      <br/>
+                      Also, you are able to store, name, and use the different routes in the future.
                     </p>
                     <a id="boton" href="https://github.com/jaitone/RouteApp">Visit Github Project</a>
                   </li>
@@ -73,15 +72,15 @@ const Projects = () => {
                       <img src="https://thecleverest.com/wp-content/uploads/2020/01/fake-twitter.png" alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
-                        Chwetter
+                          Chwetter
                         </h2>
                         <h3>
-                        React, Bootstrap, Reactstrap, HTML, CSS
+                          React, Bootstrap, Reactstrap, HTML, CSS
                         </h3>
                       </figcaption>
                     </figure>
                     <p>
-                    A Front-End app, using a given Back-end in RoR, where you can CRUD peeps and create an account.
+                      A Front-End app, using a given Back-end in Ruby on Rails, where you can create an account, and then, Create, Read, Update and Delete peeps.
                     </p>
                     <a id="boton" href="https://github.com/jaitone/Chwetter">Visit Github Project</a>
                   </li>
@@ -90,10 +89,10 @@ const Projects = () => {
                       <img src={WebPhoto} alt="Several hands holding beer glasses"/>
                       <figcaption>
                         <h2>
-                        Portfolio
+                          Portfolio
                         </h2>
                         <h3>
-                        React, Bootstrap, Reactstrap, HTML, CSS
+                          React, Bootstrap, Reactstrap, HTML, CSS
                         </h3>
                       </figcaption>
                     </figure>
