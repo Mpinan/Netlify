@@ -36,6 +36,9 @@ const NavigationBar = (props) => {
             <NavItem>
               <NavLink href="/#projects">projects</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="/#contact">contact</NavLink>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
             </UncontrolledDropdown>
           </Nav>
