@@ -258,28 +258,101 @@ nav ul li a:hover {
 	color: #666666;
 }
   
-  .breweries > ul > li > a {
-		padding: .5rem 1rem;
-		margin: .5rem;
+.breweries > ul > li > a {
+	padding: .5rem 1rem;
+	margin: .5rem;
+}
+
+#boton {
+	margin-top: auto;
+	background-color: #333;
+	color: white;
+	border-radius: .25rem;
+	text-align: center;
+	display: inline-block;
+	transition: all .3s;
+}
+
+#boton:hover {
+	transition: all 0.5s ease 0s;
+	background: #f1f1f1;
+	color: black;
+}
+
+.form {
+	margin: auto;
+	padding: 2rem;
 }
   
+.form > ul {
+	padding: initial;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 3rem;
+}
 
-  #boton {
-		margin-top: auto;
-		background-color: #333;
-		color: white;
-		border-radius: .25rem;
-		text-align: center;
-		display: inline-block;
-		transition: all .3s;
-  }
+  
+.form > ul > li {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5rem!important;
+	box-shadow: 0px 10px 10px 10px;
+	background-color:  #d3cfcf;
+	border-radius: .5rem;	
+}
 
-  #boton:hover {
-		transition: all 0.5s ease 0s;
-		background: #f1f1f1;
-		color: black;
-	}
-	
+#SubmitBoton {
+	padding: .5rem 1rem;
+	margin: .5rem;
+	/* margin-top: auto; */
+	background-color: #333;
+	color: white;
+	border-radius: .25rem;
+	text-align: center;
+	display: inline-block;
+	transition: all .3s;
+}
+
+#SubmitBoton:hover {
+	transition: all 0.5s ease 0s;
+	background: #f1f1f1;
+	color: black;
+}
+
+h1.testimonials-header{
+    font-family: "Univers57-Condensed", sans-serif;
+    font-size: 18pt;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 6px;
+}
+section#home-reviews{
+	margin: 50px 6px 70px 6px;
+	padding: 100px 0;
+	font-family: "Univers57-Condensed", sans-serif;
+  color: #5d564f;
+  background: #f7f7f7;
+}
+section#home-reviews h2{
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.fa-quote-left{
+	padding-right: 10px;
+}
+.fa-quote-right{
+	padding-left: 10px;
+}
+section#home-reviews p{
+	font-size: 13pt;
+}
+.stars{
+	color: #BB8B41;
+}
 
 
 	@media only screen and (max-width:1299px){
