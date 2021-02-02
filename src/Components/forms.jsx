@@ -1,5 +1,5 @@
 import Mail from "./mail"
-import Review from "./review"
+import Review from "./reviewForm"
 
 
 const Forms = () => {

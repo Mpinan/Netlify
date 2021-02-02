@@ -51,20 +51,3 @@ export default class MyForm extends React.Component {
     xhr.send(data);
   }
 }
-
-{/* <div>
-<FormGroup
-        onSubmit={this.submitForm}
-        action="https://formspree.io/f/xdopjeyb"
-        method="POST"
->
-		<Input
-				type="email"
-				name="email"
-				placeholder="Enter Your Email"
-		/>
-		<Label for="exampleText">Contact me for anything you would like to know, even just say Hi!</Label>
-		<Input type="textarea" name="text" id="exampleText" />
-</FormGroup>
-<a type="submit" id="SubmitBoton" href="https://github.com/jaitone/Chwetter">Visit Github Project</a>
-</div> */}

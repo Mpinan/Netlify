@@ -6,6 +6,7 @@ import Introduction from "./Components/introduction"
 import Resume from "./Components/resume"
 import Projects from "./Components/projects"
 import Forms from "./Components/forms"
+import Review from "./Components/reviews"
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Projects/>
           <BottonBar/>
           <Forms/>
+          <Review/> 
       </div>
     );
   }
