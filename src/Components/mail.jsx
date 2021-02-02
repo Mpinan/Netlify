@@ -1,25 +1,70 @@
-import React, { Component } from "react";
-import { FormGroup, Input, Label } from "reactstrap"
+import React from "react";
+import { Input, Label } from "reactstrap"
+export default class MyForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: ""
+    };
+  }
 
-class Mail extends Component {
-	state = {  }
-	render() { 
-		return ( 
-			<div>
-					<FormGroup>
-							<Input
-									type="email"
-									name="email"
-									id="exampleEmail"
-									placeholder="Enter Your Email"
-							/>
-							<Label for="exampleText">Contact me for anything you would like to know, even just say Hi!</Label>
-							<Input type="textarea" name="text" id="exampleText" />
-				</FormGroup>
-				<a type="submit" id="SubmitBoton" href="https://github.com/jaitone/Chwetter">Visit Github Project</a>
-			</div> 
-			);
-	}
+  render() {
+    const { status } = this.state;
+    return (
+      <form
+        onSubmit={this.submitForm}
+        action="https://formspree.io/f/xdopjeyb"
+        method="POST"
+      >
+				<Input 
+				type="email" 
+				name="email" 
+				placeholder="Enter Your Email"
+				/>
+        <Label for="exampleText">Contact me for anything you would like to know, even just to say Hi!</Label>
+        <Input type="textarea" name="message" />
+        {status === "SUCCESS" ? <p>Thanks!</p> : 
+				<button type="submit" id="SubmitBoton" >Send!</button>}
+        {status === "ERROR" && 
+				<p>Ooops! There was an error.</p>}
+      </form>
+    );
+  }
+
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
+  }
 }
- 
-export default Mail;
+
+{/* <div>
+<FormGroup
+        onSubmit={this.submitForm}
+        action="https://formspree.io/f/xdopjeyb"
+        method="POST"
+>
+		<Input
+				type="email"
+				name="email"
+				placeholder="Enter Your Email"
+		/>
+		<Label for="exampleText">Contact me for anything you would like to know, even just say Hi!</Label>
+		<Input type="textarea" name="text" id="exampleText" />
+</FormGroup>
+<a type="submit" id="SubmitBoton" href="https://github.com/jaitone/Chwetter">Visit Github Project</a>
+</div> */}

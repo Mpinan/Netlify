@@ -15,8 +15,8 @@ class Review extends Component {
                     />
                     <Label for="exampleText">Write a short review of how was your experience working with me</Label>
                     <Input type="textarea" name="text" id="exampleText" />
-              </FormGroup>
                     <a type="submit"id="SubmitBoton" href="https://github.com/jaitone/Chwetter">Visit Github Project</a>
+              </FormGroup>
             </div> 
             );
     }
