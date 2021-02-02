@@ -13,7 +13,6 @@ class Reviews extends Component {
 			fetch(`https://apiwe.herokuapp.com/reviews`)
 				.then(response => response.json())
 				.then(result => this.setState({ reviews: result }))
-				.then(result => console.log(this.state.reviews))
 				.catch(err => console.log(err));
 		}
     render() { 
@@ -29,12 +28,10 @@ class Reviews extends Component {
 						<li key={review.id}>
 							<figure>
 									<h3>
-										{console.log(review.review_name)}
 										{review.review_name}
 									</h3>
 							</figure>
 							<p>
-								{console.log(review.review_text)}
 								{review.review_text}
 							</p>
 						</li>
