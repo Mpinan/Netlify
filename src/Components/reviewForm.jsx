@@ -72,12 +72,11 @@ class Review extends Component {
                         placeholder="Enter Your Name"
                         value={name === null ? "" : name}
                         />
-                    <Label for="exampleText">Write a short review of how was your experience working with me</Label>
+                    <Label for="exampleText">Write a review of how was your experience working with me</Label>
                     <Input 
                         onChange={this.handleTextInput}
                         type="textarea" 
                         name="reviewText"  
-                        placeholder="255 characters"
                         value={reviewText === null ? "" : reviewText}
                         />
                     {!errors ? <p>Thanks</p>:
