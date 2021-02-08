@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FormGroup, Input, Label, Form } from "reactstrap"
+import { FormGroup, Input, Form } from "reactstrap"
 
 class Review extends Component {
     state = { 
@@ -72,10 +72,11 @@ class Review extends Component {
                         placeholder="Enter Your Name"
                         value={name === null ? "" : name}
                         />
-                    <Label for="exampleText">Write a review of how was your experience working with me</Label>
+                    <br/>
                     <Input 
                         onChange={this.handleTextInput}
                         type="textarea" 
+                        placeholder="Write a review of how was your experience working with me"
                         name="reviewText"  
                         value={reviewText === null ? "" : reviewText}
                         />

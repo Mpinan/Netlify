@@ -306,7 +306,6 @@ nav ul li a:hover {
 #SubmitBoton {
 	padding: .5rem 1rem;
 	margin: .5rem;
-	/* margin-top: auto; */
 	background-color: #333;
 	color: white;
 	border-radius: .25rem;
@@ -321,39 +320,48 @@ nav ul li a:hover {
 	color: black;
 }
 
-h1.testimonials-header{
-    font-family: "Univers57-Condensed", sans-serif;
-    font-size: 18pt;
-    line-height: 1.1;
-    text-transform: uppercase;
-    font-weight: normal;
-    padding: 6px;
+
+#pag {
+	justify-content: center;
+	display: flex;
+	margin: auto;
+	padding: 2rem;
 }
-section#home-reviews{
-	margin: 50px 6px 70px 6px;
-	padding: 100px 0;
-	font-family: "Univers57-Condensed", sans-serif;
-  color: #5d564f;
-  background: #f7f7f7;
-}
-section#home-reviews h2{
-	font-size: 1.75rem;
-	text-transform: uppercase;
-	margin-bottom: 50px;
-}
-.fa-quote-left{
-	padding-right: 10px;
-}
-.fa-quote-right{
-	padding-left: 10px;
-}
-section#home-reviews p{
-	font-size: 13pt;
-}
-.stars{
-	color: #BB8B41;
+  
+#pag > ul {
+	padding: initial;
+	display: grid;
+	grid-gap: 3rem;
 }
 
+  
+#pag > ul > li {
+	display: flex; 
+	flex-direction: column;
+	margin-bottom: 5rem;
+}
+
+#pag > ul > li > button {
+	padding: .1rem 1rem;
+	margin: .1rem;
+	background-color: #333;
+	color: white;
+	border-radius: .25rem;
+	text-align: center;
+	display: inline-block;
+	transition: all .3s;
+}
+
+#pag > ul > li > button:hover {
+	transition: all 0.5s ease 0s;
+	background: #f1f1f1;
+	color: black;
+}
+
+#pag > ul > li > button:focus {
+	background: #f1f1f1;
+	color: black;
+}
 
 	@media only screen and (max-width:1299px){
 		.banner-text-col{

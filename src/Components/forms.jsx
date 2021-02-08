@@ -15,10 +15,20 @@ const Forms = () => {
         <section className="form" id="form">
           <ul>
             <li>
+              <h4 className="display-5">
+                <br/>
+                  Send me an email!
+                <br/>
+              </h4>
               <Mail/>
             </li>
             <li>
-              <Review/>
+              <h4 className="display-5">
+                <br/>
+                  Write me a review!
+                <br/>
+              </h4>
+            <Review/>
             </li>
           </ul>
         </section>

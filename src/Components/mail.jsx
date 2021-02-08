@@ -1,5 +1,5 @@
 import React from "react";
-import { Input, Label } from "reactstrap"
+import { Input } from "reactstrap"
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);
@@ -22,8 +22,12 @@ export default class MyForm extends React.Component {
 				name="email" 
 				placeholder="Enter Your Email"
 				/>
-        <Label for="exampleText">Contact me for anything you would like to know, even just to say Hi!</Label>
-        <Input type="textarea" name="message" />
+        <br/>
+        <Input 
+        type="textarea" 
+        name="message"
+        placeholder="Contact me for anything you would like to know, even just to say Hi!" 
+        />
         {status === "SUCCESS" ? <p>Thanks!</p> : 
 				<button type="submit" id="SubmitBoton" >Send!</button>}
         {status === "ERROR" && 
