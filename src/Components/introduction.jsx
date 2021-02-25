@@ -33,10 +33,11 @@ const Introduction = () => {
                         I am seeking an opportunity to begin a career whilst furthering my knowledge of computer programming.
                     </p>
                 </div>
-            </div>             
+            </div>
+
         </div>
 
-      );
+    );
 };
- 
+
 export default Introduction;

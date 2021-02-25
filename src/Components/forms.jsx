@@ -1,40 +1,35 @@
 import Mail from "./mail"
-import Review from "./reviewForm"
+import { Container } from "reactstrap"
 
 
 const Forms = () => {
-    return ( 
+  return (
     <div id="contact">
       <h1 className="display-5">
-        <br/>
+        <br />
           Contact
-        <br/>
+        <br />
       </h1>
       <hr className="my-4"></hr>
+      <Container>
 
         <section className="form" id="form">
           <ul>
             <li>
               <h4 className="display-5">
-                <br/>
+                <br />
                   Send me an email!
-                <br/>
+                <br />
               </h4>
-              <Mail/>
+              <Mail />
             </li>
-            <li>
-              <h4 className="display-5">
-                <br/>
-                  Write me a review!
-                <br/>
-              </h4>
-            <Review/>
-            </li>
+
           </ul>
         </section>
+      </Container>
 
-    </div> 
-    );
+    </div>
+  );
 }
- 
+
 export default Forms;

@@ -15,9 +15,10 @@ class App extends Component {
       <div className="App">
           <NavigationBar/>
           <Introduction />
+          <a id="botonIntro" href="#contact">Contact me</a>
           <About/>
-          <Resume/>
           <Projects/>
+          <Resume/>
           <Forms/>
           <Review/> 
           <BottonBar/>

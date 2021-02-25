@@ -3,34 +3,34 @@
 	text-decoration: none;
 }
 
-html{
+html {
 	scroll-behavior: smooth;
-  }
+}
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
 }
 
 .App {
-  text-align: center;
-  min-width: 100%;
+	text-align: center;
+	min-width: 100%;
 	min-height: 100%;
 	background-color: #c7c7c7;
-  background-size: cover;
-  background-position: center;
+	background-size: cover;
+	background-position: center;
 }
 
 .toggleicon {
 	font-size: 50px;
 	color: rgb(0, 0, 0);
 	letter-spacing: 5px;
-  display: none;
+	display: none;
 }
 
 .logo {
@@ -46,7 +46,7 @@ nav {
 }
 
 nav a {
-	text-align: right!important;
+	text-align: right !important;
 	letter-spacing: 4px;
 	font-size: 20px;
 	margin: 0 10px;
@@ -56,105 +56,108 @@ nav a {
 nav ul li:hover {
 	transition: all 0.7s ease 0s;
 	background: #333;
-	}
+}
 
 nav ul li a:hover {
 	transition: all 0.5s ease 0s;
 	color: #d3cfcf
-	
-  }
-
-.landingpage{
-  padding-top: 13vh;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  margin:auto;
-  display: block;
 }
 
-.banner-text{
+.landingpage {
+	padding-top: 13vh;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: block;
+}
+
+.banner-text {
 	text-align: left;
-  padding-top: 5%;
-  height: 100%;
-  width:80%;
-  margin: auto;
+	padding-top: 5%;
+	height: 100%;
+	width: 80%;
+	margin: auto;
 }
 
-.banner-text-col{
-  margin-top: 3%;
-  float: left;
-  width: 38%;
+.banner-text-col {
+	margin-top: 3%;
+	float: left;
+	width: 38%;
 }
 
-.banner-text-col p{
-  text-align: justify;
-  text-justify: auto;
-  font-weight: 500;
-  color: #525252;
-  font-size: 18px;
-  line-height: 1.5;
-  padding-right:2em;
+.banner-text-col p {
+	text-align: justify;
+	text-justify: auto;
+	font-weight: 500;
+	color: #525252;
+	font-size: 18px;
+	line-height: 1.5;
+	padding-right: 2em;
 }
 
-.banner-text h1{
-  font-size: 80px;
-  font-weight: 700;
+.banner-text h1 {
+	font-size: 80px;
+	font-weight: 700;
 }
 
-.aboutme{
-  padding-top: 10%;
-  display: block;
+.aboutme {
+	padding-top: 10%;
+	display: block;
 }
 
-.aboutme-container{
-  margin: auto;
+.aboutme-container {
+	margin: auto;
 	width: 80%;
 	box-shadow: 0px 10px 10px 10px;
-  background-color:  #d3cfcf;
-  border-radius: 25px;
+	background-color: #d3cfcf;
+	border-radius: 25px;
 }
 
-.aboutme-text{
+.aboutme-text {
 	text-align: left;
-  padding: 8%;
+	padding: 8%;
 }
 
-.aboutme-container h1{
-  font-size: 40px;
-  font-weight: bold;
+.aboutme-container h1 {
+	font-size: 40px;
+	font-weight: bold;
 }
 
-.aboutme-container p{
-	
-  font-size: 16px;
-  color: black;
-  font-weight: 500;
-  line-height: 28px;
+.aboutme-container p {
+
+	font-size: 16px;
+	color: black;
+	font-weight: 500;
+	line-height: 28px;
 }
 
-.aboutme-profilepic{
-  text-align: left;
+.aboutme-profilepic {
+	text-align: left;
 }
 
-.aboutme-profilepic img{
-  position: absolute;
-  max-height: 100% 100vh;
-  width: 500px;
-  margin-left: 8%;
-  background-size: cover;
-  bottom: 0;
+.aboutme-profilepic img {
+	position: absolute;
+	max-height: 100% 100vh;
+	width: 500px;
+	margin-left: 8%;
+	background-size: cover;
+	bottom: 0;
 }
 
 #resume {
+	padding-top: 5%;
+}
+
+#projects {
 	padding-top: 10%;
 }
 
 .buttonnavbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	bottom: 0;
 	width: 100%;
 	display: block;
 }
@@ -162,7 +165,7 @@ nav ul li a:hover {
 .buttonnavbar a {
 	padding: 14px 16px;
 	font-size: 25px;
-  float: left;
+	float: left;
 	color: #bdbdbd;
 }
 
@@ -171,7 +174,7 @@ nav ul li a:hover {
 	font-size: 25px;
 	color: #bdbdbd;
 	float: right;
-	color: #bdbdbd!important;
+	color: #bdbdbd !important;
 }
 
 #textleft {
@@ -179,26 +182,26 @@ nav ul li a:hover {
 	font-size: 25px;
 	color: #bdbdbd;
 	float: left;
-	color: #bdbdbd!important;
+	color: #bdbdbd !important;
 }
 
 .hover a:hover {
 	transition: all 0.5s ease 0s;
-  background: #f1f1f1;
-  color: black;
+	background: #f1f1f1;
+	color: black;
 }
 
 .main {
-  padding: 16px;
-  margin-bottom: 30px;
+	padding: 16px;
+	margin-bottom: 30px;
 }
 
 .breweries {
 	margin: auto;
-	padding: 2rem;
+	padding: 5rem;
 }
-  
-.breweries > ul {
+
+.breweries>ul {
 	padding: initial;
 	list-style-type: none;
 	display: grid;
@@ -206,61 +209,79 @@ nav ul li a:hover {
 	grid-gap: 3rem;
 }
 
-  
-.breweries > ul > li {
+
+.breweries>ul>li {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 5rem!important;
-	background-color:  #d3cfcf;
+	margin-bottom: 5rem !important;
+	background-color: #d3cfcf;
 	box-shadow: 0px 10px 10px 10px;
 	border-radius: .5rem;
-	
+
 }
-  
-.breweries > ul > li > figure {
-	
+
+.breweries>ul>li>figure {
 	max-height: 220px;
 	overflow: hidden;
 	border-top-left-radius: .5rem;
 	border-top-right-radius: .5rem;
 	position: relative;
 }
-  
-.breweries > ul > li > figure > img {
+
+.breweries>ul>li>figure>img {
 	width: 100%;
 	height: 250px;
 }
-  
-.breweries > ul > li > figure > figcaption {
+
+.breweries>ul>li>figure>figcaption {
 	position: absolute;
 	bottom: 0;
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0, 0, 0, .7);
 	width: 100%;
 	height: 200px;
 }
-  
-.breweries > ul > li > figure > figcaption > h3 {
+
+.breweries>ul>li>figure>figcaption>h3 {
 	color: white;
 	padding: .75rem;
 	font-size: 1.25rem;
 }
 
-.breweries > ul > li > figure > figcaption > h2 {
+.breweries>ul>li>figure>figcaption>h2 {
 	color: white;
 	padding: .75rem;
 }
-  
-.breweries > ul > li > p {
+
+.breweries>ul>li>p {
 	text-align: left;
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: 1rem .75rem;
 	color: #666666;
 }
-  
-.breweries > ul > li > a {
+
+.breweries>ul>li>a {
 	padding: .5rem 1rem;
 	margin: .5rem;
+}
+
+#botonIntro {
+	padding: .5rem 1rem;
+	margin: .5rem;
+	margin-top: auto;
+	background-color: #333;
+	color: white;
+	border-radius: .25rem;
+	text-align: center;
+	display: inline-block;
+	transition: all .3s;
+}
+
+#botonIntro:hover {
+
+	transition: all 0.5s ease 0s;
+	background: #f1f1f1;
+	color: black;
 }
 
 #boton {
@@ -283,8 +304,8 @@ nav ul li a:hover {
 	margin: auto;
 	padding: 2rem;
 }
-  
-.form > ul {
+
+.form>ul {
 	padding: initial;
 	list-style-type: none;
 	display: grid;
@@ -292,15 +313,15 @@ nav ul li a:hover {
 	grid-gap: 3rem;
 }
 
-  
-.form > ul > li {
+
+.form>ul>li {
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 5rem!important;
+	margin-bottom: 5rem !important;
 	box-shadow: 0px 10px 10px 10px;
-	background-color:  #d3cfcf;
-	border-radius: .5rem;	
+	background-color: #d3cfcf;
+	border-radius: .5rem;
 }
 
 #SubmitBoton {
@@ -327,21 +348,21 @@ nav ul li a:hover {
 	margin: auto;
 	padding: 2rem;
 }
-  
-#pag > ul {
+
+#pag>ul {
 	padding: initial;
 	display: grid;
 	grid-gap: 3rem;
 }
 
-  
-#pag > ul > li {
-	display: flex; 
+
+#pag>ul>li {
+	display: flex;
 	flex-direction: column;
 	margin-bottom: 5rem;
 }
 
-#pag > ul > li > button {
+#pag>ul>li>button {
 	padding: .1rem 1rem;
 	margin: .1rem;
 	background-color: #333;
@@ -352,117 +373,213 @@ nav ul li a:hover {
 	transition: all .3s;
 }
 
-#pag > ul > li > button:hover {
+#pag>ul>li>button:hover {
 	transition: all 0.5s ease 0s;
 	background: #f1f1f1;
 	color: black;
 }
 
-#pag > ul > li > button:focus {
+#pag>ul>li>button:focus {
 	background: #f1f1f1;
 	color: black;
 }
 
-	@media only screen and (max-width:1299px){
-		.banner-text-col{
-			margin-top: 3%;
-			float: left;
-			width: 100%;
-		}
-	
-		.aboutme-profilepic img{
-			position: relative;
-			float: none;
-			width: 100%;
-		}
-	
-		.aboutme-profilepic{
-			text-align: center;
-		}
-	
-		.aboutme{
-			padding-top: 10px;
-		}
-	
+.breweriesReviews {
+	margin: auto;
+	padding: 3rem;
+}
+
+.breweriesReviews>ul {
+	padding: initial;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 3rem;
+}
+
+
+.breweriesReviews>ul>li {
+	display: flex;
+	flex-direction: column;
+	background-color: #d3cfcf;
+	box-shadow: 0px 10px 10px 10px;
+	border-radius: .5rem;
+
+}
+
+.breweriesReviews>ul>li>figure {
+	max-height: 220px;
+	overflow: hidden;
+	border-top-left-radius: .5rem;
+	border-top-right-radius: .5rem;
+	position: relative;
+}
+
+.breweriesReviews>ul>li>figure>img {
+	width: 100%;
+	height: 250px;
+}
+
+.breweriesReviews>ul>li>figure>figcaption {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .7);
+	width: 100%;
+	height: 200px;
+}
+
+.breweriesReviews>ul>li>figure>figcaption>h3 {
+	color: white;
+	padding: .75rem;
+	font-size: 1.25rem;
+}
+
+.breweriesReviews>ul>li>figure>figcaption>h2 {
+	color: white;
+	padding: .75rem;
+}
+
+.breweriesReviews>ul>li>p {
+	text-align: left;
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: 1rem .75rem;
+	color: #666666;
+}
+
+.breweriesReviews>ul>li>a {
+	padding: .5rem 1rem;
+	margin: .5rem;
+}
+
+.reviews-container {
+	position: relative;
+	margin: auto;
+	display: flex;
+}
+
+.review-form {
+	position: relative;
+	margin: 0;
+	top: 0;
+	width: 50%;
+}
+
+
+.show-reviews {
+	position: relative;
+	margin: auto;
+	width: 50%;
+}
+
+@media only screen and (max-width:1299px) {
+	.banner-text-col {
+		margin-top: 3%;
+		float: left;
+		width: 100%;
 	}
 
-	@media only screen and (max-width:1200px){
-
-		.aboutme-profilepic img{
-			position: relative;
-			float: none;
-			width: 50%;
-		}
-	
-		.aboutme-profilepic{
-			text-align: center;
-		}
-	
-		.aboutme{
-			padding-top: 10px;
-		}
-	
-	}
-	
-	@media only screen and (max-width:1151px){
-		.aboutme-text{
-			width:100%;
-		}
-	
-		 .banner-text h1{
-			font-size: 70px;
-		}
-	}
-	
-	@media only screen and (max-width:991px){
-		.aboutme-profilepic img{
-			position: relative;
-			float: none;
-			width: 55%;
-		}
-	
-		.aboutme-profilepic{
-			text-align: center;
-		}
-	
-		.contact-img img{
-			position: absolute;
-			right:0;
-			width:25%;
-			bottom: 0px;
-		}
+	.aboutme-profilepic img {
+		position: relative;
+		float: none;
+		width: 100%;
 	}
 
-	@media only screen and (max-width:500px){
-		.breweries > ul {
-			padding: initial;
-			list-style-type: none;
-			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-			display: grid;
-			grid-gap: 0rem;
-		}
-
-		.breweries > ul > li > figure > figcaption > h2 {
-			color: white;
-			padding: .75rem;
-			font-size: 1.3rem;
-		}
-
-		.breweries > ul > li > figure > figcaption > h3 {
-			color: white;
-			padding: .75rem;
-			font-size: 1rem;
-		}
-		
-		.toggleicon{
-			display: inline;
-		}
-
-		#textright {
-			float: left;
-		}
+	.aboutme-profilepic {
+		text-align: center;
 	}
 
+	.aboutme {
+		padding-top: 10px;
+	}
 
+}
 
+@media only screen and (max-width:1200px) {
 
+	.aboutme-profilepic img {
+		position: relative;
+		float: none;
+		width: 50%;
+	}
+
+	.aboutme-profilepic {
+		text-align: center;
+	}
+
+	.aboutme {
+		padding-top: 10px;
+	}
+
+}
+
+@media only screen and (max-width:1151px) {
+	.aboutme-text {
+		width: 100%;
+	}
+
+	.banner-text h1 {
+		font-size: 70px;
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.reviews-container {
+		flex-direction: column;
+	}
+
+	.review-form {
+		width: 100%;
+	}
+
+	.show-reviews {
+		width: 100%;
+	}
+
+	.aboutme-profilepic img {
+		position: relative;
+		float: none;
+		width: 55%;
+	}
+
+	.aboutme-profilepic {
+		text-align: center;
+	}
+
+	.contact-img img {
+		position: absolute;
+		right: 0;
+		width: 25%;
+		bottom: 0px;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	.breweries>ul {
+		padding: initial;
+		list-style-type: none;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		display: grid;
+		grid-gap: 0rem;
+	}
+
+	.breweries>ul>li>figure>figcaption>h2 {
+		color: white;
+		padding: .75rem;
+		font-size: 1.3rem;
+	}
+
+	.breweries>ul>li>figure>figcaption>h3 {
+		color: white;
+		padding: .75rem;
+		font-size: 1rem;
+	}
+
+	.toggleicon {
+		display: inline;
+	}
+
+	#textright {
+		float: left;
+	}
+}

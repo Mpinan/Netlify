@@ -18,10 +18,10 @@ const NavigationBar = (props) => {
   return (
     <div>
       <Navbar className="fixed-top p-0" expand="md">
-      <div className="logo">
-					Welcome!
+        <div className="logo">
+          Welcome!
 			</div>
-            <FaBars className="toggleicon" onClick={toggle} />
+        <FaBars className="toggleicon" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
@@ -31,10 +31,10 @@ const NavigationBar = (props) => {
               <NavLink href="/#aboutme">about me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#resume">resume</NavLink>
+              <NavLink href="/#projects">projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#projects">projects</NavLink>
+              <NavLink href="/#resume">resume</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#contact">contact</NavLink>

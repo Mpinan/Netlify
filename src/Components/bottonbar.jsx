@@ -1,20 +1,20 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const BottonBar = () => {
-    return ( 
+    return (
         <div className="buttonnavbar">
             <div id="textleft">
                 <span>
-                    Find me on: 
+                    Find me on:
                 </span>
             </div>
             <div className="hover">
                 <a href="https://www.linkedin.com/in/mario-garcia-4491b316b/" rel="noopenr noreferrer" target="_blank">
                     <FaLinkedin />
-                </a>    
+                </a>
                 <a href="https://github.com/jaitone" rel="noopenr noreferrer" target="_blank">
                     <FaGithub />
-                </a> 
+                </a>
             </div>
             <div id="textright">
                 <span>
@@ -23,7 +23,7 @@ const BottonBar = () => {
             </div>
         </div>
 
-);
+    );
 }
- 
+
 export default BottonBar;
