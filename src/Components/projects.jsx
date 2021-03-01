@@ -2,6 +2,7 @@ import AcebookPhoto from "../Assets/Untitled.png"
 import WeatherPhoto from "../Assets/weatherapp.jpg"
 import RouteAppPhoto from "../Assets/routapp.png"
 import WebPhoto from "../Assets/website.png"
+import ChatPhoto from "../Assets/chatApp.png"
 
 const Projects = () => {
   return (
@@ -16,7 +17,7 @@ const Projects = () => {
         <ul>
           <li>
             <figure>
-              <img src={AcebookPhoto} alt="Several hands holding beer glasses" />
+              <img src={AcebookPhoto} />
               <figcaption>
                 <h2>
                   Acebook
@@ -33,7 +34,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src={WeatherPhoto} alt="Several hands holding beer glasses" />
+              <img src={WeatherPhoto} />
               <figcaption>
                 <h2>
                   Thermostat
@@ -50,13 +51,13 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src={RouteAppPhoto} alt="Several hands holding beer glasses" />
+              <img src={RouteAppPhoto} />
               <figcaption>
                 <h2>
                   RoutApp
                         </h2>
                 <h3>
-                  React, Bootstrap, Express, PostgreSQL, Reactstrap, HTML, CSS
+                  React, Bootstrap, Express, PostgreSQL, Reactstrap, HTML, CSS, Google Maps Api
                         </h3>
               </figcaption>
             </figure>
@@ -69,7 +70,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src="https://thecleverest.com/wp-content/uploads/2020/01/fake-twitter.png" alt="Several hands holding beer glasses" />
+              <img src="https://thecleverest.com/wp-content/uploads/2020/01/fake-twitter.png" />
               <figcaption>
                 <h2>
                   Chwetter
@@ -86,7 +87,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src={WebPhoto} alt="Several hands holding beer glasses" />
+              <img src={WebPhoto} />
               <figcaption>
                 <h2>
                   Portfolio
@@ -98,6 +99,25 @@ const Projects = () => {
             </figure>
             <p>
               My own website, the one you are currently looking at.
+                    </p>
+            <a id="boton" href="https://github.com/jaitone/Netlify">Visit Github Project</a>
+          </li>
+          <li>
+            <figure>
+              <img src={ChatPhoto} />
+              <figcaption>
+                <h2>
+                  ChatApp
+                        </h2>
+                <h3>
+                  React, Bootstrap, Reactstrap, HTML, CSS, Pubnub Api
+                        </h3>
+              </figcaption>
+            </figure>
+            <p>
+              A chat with for stablished channels.
+              <br />
+              Using pubnub Api, users are able to create a username and have private conversations on different channels.
                     </p>
             <a id="boton" href="https://github.com/jaitone/Netlify">Visit Github Project</a>
           </li>
