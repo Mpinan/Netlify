@@ -1,6 +1,6 @@
 * {
 	font-family: poppins;
-	text-decoration: none;
+	/* text-decoration: none; */
 }
 
 html {
@@ -19,7 +19,7 @@ body {
 
 .App {
 	text-align: center;
-	min-width: 100%;
+	min-width: fit-content;
 	min-height: 100%;
 	background-color: #c7c7c7;
 	background-size: cover;
@@ -340,7 +340,6 @@ nav ul li a:hover {
 	background: #f1f1f1;
 	color: black;
 }
-
 
 #pag {
 	justify-content: center;
