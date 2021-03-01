@@ -17,7 +17,7 @@ const Projects = () => {
         <ul>
           <li>
             <figure>
-              <img src={AcebookPhoto} />
+              <img alt="Acebook project" src={AcebookPhoto} />
               <figcaption>
                 <h2>
                   Acebook
@@ -34,7 +34,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src={WeatherPhoto} />
+              <img alt="Thermostat project" src={WeatherPhoto} />
               <figcaption>
                 <h2>
                   Thermostat
@@ -51,7 +51,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src={RouteAppPhoto} />
+              <img alt="Route project" src={RouteAppPhoto} />
               <figcaption>
                 <h2>
                   RoutApp
@@ -70,7 +70,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src="https://thecleverest.com/wp-content/uploads/2020/01/fake-twitter.png" />
+              <img alt="Chweeter" src="https://thecleverest.com/wp-content/uploads/2020/01/fake-twitter.png" />
               <figcaption>
                 <h2>
                   Chwetter
@@ -87,7 +87,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src={WebPhoto} />
+              <img alt="Website" src={WebPhoto} />
               <figcaption>
                 <h2>
                   Portfolio
@@ -104,7 +104,7 @@ const Projects = () => {
           </li>
           <li>
             <figure>
-              <img src={ChatPhoto} />
+              <img alt="Chat" src={ChatPhoto} />
               <figcaption>
                 <h2>
                   ChatApp
